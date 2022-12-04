@@ -1,0 +1,112 @@
+<!DOCTYPE html>    
+<html>    
+<head>    
+    <title>Reset Password</title>      
+</head> 
+<style> 
+body
+        {
+            margin:0;
+            padding:0;
+           
+            
+            background: url("https://previews.123rf.com/images/nito500/nito5001105/nito500110500141/9550268-question-marks-of-different-colors-drawn-on-a-white-background.jpg");
+            background-position: center;
+            background-size: cover;
+            text-align: right;
+            font-family: sans-serif;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            box-sizing: border-box;
+            
+        }
+        .forgotpass
+        {
+            width: 500px;
+            overflow: hidden;
+            margin: auto;
+            margin: 20 0 0 450px;
+            padding: 80px;  
+            height:250px;
+            background:lightsteelblue;
+            color:black;
+            top:50%;
+            left:50%;
+            position:absolute;
+            transform:translate(-50%,-50%);
+            box-sizing: border-box;
+            border:2px;
+            border-style: double;
+            border-color: black;
+            border-radius: 60px;
+            text-align: center;
+            padding:20px 20px;
+        }
+h2{  
+    text-align: center;  
+    color: Black;  
+    padding: 20px;
+    font-size: 70px;  
+}  
+label{  
+    color: #ed5132;  
+    font-size: 17px;  
+}  
+#Uname{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+} 
+#rPass{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}   
+#Pass{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}  
+span{  
+    color: white;  
+    font-size: 17px;  
+}  
+</style>   
+<body>    
+    <h2>Reset Password</h2><br>    
+    <div class="forgotpass">    
+  <form action = "/forgotpwd" method = "get">  
+        <label><b>E-mail     
+        </b>    
+        </label>
+        <br>    
+        <input type="text" name="email" id="email" placeholder="E-mail id">    
+        <br><br>    
+        <label><b>Reset Password<br>     
+        </b>    
+        </label>    
+        <input type="Reset Password" name="rPass" id="rPass" placeholder="Reset Password">    
+        <br><br>    
+        <label><b>Confirm Password<br>    
+        </b>    
+        </label>    
+        <input type="Confirm Password" name="Pass" id="Pass" placeholder="Confirm Password">    
+        <br><br>    
+        <input type="button" name="log" id="log" value="Submit">       
+        <br><br>     
+
+          
+
+    </form>     
+</div>    
+</body>    
+</html>

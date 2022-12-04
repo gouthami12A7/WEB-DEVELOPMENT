@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register form</title>
+</head>
+    <style>
+        body
+        {
+            margin:0;
+            padding:0;
+           
+            
+            background: url("https://images.hdqwalls.com/download/triangles-colorful-background-nz-1920x1080.jpg");
+            background-position: center;
+            background-size: cover;
+            text-align: right;
+            font-family: sans-serif;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            box-sizing: border-box;
+
+
+            
+        }
+        .sign
+        {
+            width: 500px;
+            overflow: hidden;
+            margin: auto;
+            margin: 20 0 0 450px;
+            padding: 80px;  
+            height:500px;
+            background:lightsteelblue;
+            color:black;
+            top:50%;
+            left:50%;
+            position:absolute;
+            transform:translate(-50%,-50%);
+            box-sizing: border-box;
+            border:2px;
+            border-style: double;
+            border-color: black;
+            border-radius: 60px;
+            text-align: center;
+            padding:20px 20px;
+        }
+        h2{  
+    text-align: center;  
+    color:blanchedalmond;  
+    padding: 20px;  
+}  
+    #label
+        {
+            margin:0;
+            padding:0;
+            font-weight: bold;
+            color: lightpink;
+            font-size: 17px;
+        }
+        #fn{  
+    width: 300px;  
+    height: 30px;  
+    border: 2;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+} 
+        #ln{  
+    width: 300px;  
+    height: 30px;  
+    border: 2;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+        #email{
+            width: 300px;
+            height: 30px;
+            border: 2;
+            border-radius: 3px;
+            padding-left: 8px;
+        }
+        #pwd1{
+            width: 300px;
+            height: 30px;
+            border: 2;
+            border-radius: 3px;
+            padding-left: 8px;
+        }
+        #pwd2{
+            width: 300px;
+            height: 30px;
+            border: 2;
+            border-radius: 3px;
+            padding-left: 8px;
+        }
+        #log{
+            width: 300px;
+            height: 30px;
+            border: 3;
+            border-radius: 17px;
+            padding-left: 7px;
+            color:saddlebrown;  
+
+        }
+        a,p{
+            float: center;
+        }
+       
+    </style> 
+<body>    
+    <h2>Register here!</h2><br>    
+    <div class="sign">  
+    <form action = "/registersubmit" method = "get"> 
+        <label><b>First Name
+        </b>
+        </label><br>
+        <input type = "text" name = "fn" id = "fn" placeholder="Enter First Name"> 
+        <br><br>        
+         <label><b>Last Name
+        </b>
+        </label><br>
+        <input type = "text" name = "ln" id = "ln" placeholder="Enter last Name">  
+        <br><br>
+        <label><b> E-mail    
+        </b>    
+        </label><br>
+        <input type="text" name="email" id="email" placeholder="Enter your e-mail id">    
+        <br><br> 
+        <label><b> Password     
+        </b>    
+        </label><br>    
+        <input type="Password" name="pwd" id="pwd1" placeholder="Enter Password">    
+        <br><br>
+        <label><b> Confirm Password     
+        </b>    
+        </label><br>    
+        <input type="Password" name="cpwd" id="pwd2" placeholder="Confirm Password">    
+        <br><br> 
+        <input type="submit" name="log" id="log" value="Register">      
+        <br><br>       
+        <br><br>
+    </form>     
+</div>    
+</body>    
+</html>
